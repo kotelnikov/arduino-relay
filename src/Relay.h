@@ -21,7 +21,7 @@
 #include <Arduino.h>
 
 class Relay{
-    typedef unsigned long time_t;
+    typedef uint32_t time_t;
 
     // PRIVATE VARIABLES
     private:
